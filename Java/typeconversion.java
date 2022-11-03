@@ -7,5 +7,5 @@ public class typeconversion {
 }
 }
 
-
+// order of conversion according to size
 // byte->short->int->float->long->double
