@@ -1,0 +1,8 @@
+tut#3  (variable & comments)
+tut#4 (variable scope & data types)
+tut#5 (basic input/output)
+tut#6 (Header files & operators)
+tut#7 (Reference variables & Typecasting)
+tut#8 (constants,Manipulators & operator precedence)
+tut#9 (control structures)
+tut#10 (while and do-while loops)
