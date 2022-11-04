@@ -12,5 +12,5 @@ public class datatype {
         // double
         short n = 240;
 
-}
+ }
 }
