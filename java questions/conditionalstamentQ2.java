@@ -1,3 +1,5 @@
+// if tempretur grater then 100 print fever or less then print no fever
+
 import java.util.*;
 public class conditionalstamentQ2 {
     public static void main (String args[]){

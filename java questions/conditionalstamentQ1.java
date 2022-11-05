@@ -1,3 +1,5 @@
+//  find number positive or navative
+
 import java.util.*;
 public class conditionalstamentQ1 {
     public static void main (String args[]){
