@@ -11,7 +11,7 @@ public class exercise2 {
         int side = sc.nextInt();
         int area = side * side;
         System.out.println("The area of square is " + area);
-    }
+    } 
 }
 
 
