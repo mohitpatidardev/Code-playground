@@ -50,6 +50,7 @@ void bitwise()
 }
 void assignment()
 {
+    
     int a =4;
     a += 6;
     a -= 6;
