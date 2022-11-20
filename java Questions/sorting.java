@@ -31,6 +31,8 @@ public class sorting {
             System.out.print(arr[i]+" ");
         }
     }
+
+    public static void 
     
     public static void main(String args[]){
         int arr[] = {1,7,4,2,3,6,5};
