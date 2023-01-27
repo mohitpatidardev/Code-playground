@@ -22,7 +22,7 @@ public class binarysearch {
 
     public static void main(String args[]) {
         int number[] = { 45, 8, 34, 97, 23, 54, 23, 67 };
-        int key = 345;
+        int key = 67;
 
         System.out.print("Index of given key is :" + func(number, key));
     }

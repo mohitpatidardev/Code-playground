@@ -16,7 +16,7 @@ public class aarrylinearsarch {
     public static void  main(String args[]){
 
         int number[] = {56 , 34, 56 , 34 , 345 , 65, 76, 43, 765};
-        int key = 345;
+        int key = 34565;
 
         int index =  linearsarch(number , key);
 
