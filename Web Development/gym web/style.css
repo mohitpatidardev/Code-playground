@@ -1,0 +1,79 @@
+/* css for index1  */
+
+body{
+    color: white;
+        margin: auto;
+        padding: auto;
+        background: url('gym10.jpg');
+        background-repeat: no-repeat;
+        font-family: 'Rubik', sans-serif;
+}
+
+.left{
+    border: 2px solid red;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 12px;
+    text-align: center;
+    color: white;
+}
+.left img{
+    width: 158px;
+    filter: invert(100%);
+}
+
+.mid{
+    display: block;
+    width: 33%;
+    margin: 20px auto;
+    border: 2px solid greenyellow;
+    position: absolute;
+    top: 24px;
+    left: 590px;
+}
+
+.right{
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 12px;
+    border: 2px solid blue;
+}
+
+.navbar{
+    display: inline-block;
+}
+
+.navbar li{
+    display: inline-block;
+    font-size: 20px;
+}
+
+.navbar li a{
+    color: white;
+    text-decoration: none;
+    padding: 2px 23px;
+}
+
+.navbar li a:hover , .navbar li a :active {
+    color: rgb(0, 0, 0);
+    background-color: aliceblue;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.btn{
+    margin: 0px 12px;
+    background-color: black;
+    color: white;
+    padding: 6px 18px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(31, 30, 30);
+}
+
