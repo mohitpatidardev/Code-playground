@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box shadow & Text shadow</title>
+    <style>
+        .container{
+            display: flex;
+        }
+        .card{
+
+            /* border: 2px solid black; */
+            background-color: burlywood;
+            padding: 12px 20px;
+            margin: 12px 12px;
+
+            /* box-shadow: offset-x offset-y color ; */
+            /* box-shadow: offset-x offset-y blur-rediaus color ; */
+
+            /* box-shadow: 4px 4px green; */
+            /* box-shadow: -6px -6px green; */
+            /* box-shadow: 6px 6px 20px green; */
+
+            /* make  shadow inerside of box*/
+            /* box-shadow:inset 6px 6px 20px green; */
+            
+            /* multipal shadow lear in box */
+            box-shadow: 6px 6px 20px green , 10px 10px 30px red;
+        }
+        .card h2{
+            text-shadow: 4px 4px white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card" id="card1">
+            <h2>HTML </h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id similique odio rerum consequuntur aliquam veritatis est error. Ratione, dolorem? Ratione non exercitationem aliquam illo, neque aliquid atque eius velit quis.</p>
+        </div>
+        <div class="card" id="card2">
+            <h2>CSS </h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corporis molestias maiores aliquid sequi repellendus, dolores, dolor veniam enim sit temporibus ad ipsam assumenda similique consequatur. Accusamus illo ea nam?</p>
+        </div>
+        <div class="card" id="card3">
+            <h2>JAVA SCRIPT </h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate vitae aspernatur nobis voluptates molestiae recusandae necessitatibus obcaecati nesciunt provident natus ad dolore ab esse modi, repellat maxime? Dolor, molestias? Vel.
+        </div>
+    </div>
+</body>
+</html>
