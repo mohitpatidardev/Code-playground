@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my animation</title>
+</head>
+<style>
+    body{
+        background-color: black;
+    }
+
+    #box1 {
+        position: absolute;
+        top: 102px;
+        left: 74px;
+        background-color: aqua;
+        width: 156px;
+        height: 11px;
+        animation-name: box1;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        box-shadow: 3px 3px 6px rgb(16, 220, 227);
+
+    }
+
+    #box2 {
+        position: absolute;
+        top: 38px;
+        left: 144px;
+        background-color: rgb(232, 114, 24);
+        width: 12px;
+        height: 148px;
+        animation-name: box2;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        box-shadow: 3px 3px 6px rgb(238, 121, 18);
+
+    }
+
+
+    @keyframes box1 {
+        from {
+            width: 156px;
+            height: 11px;
+
+            top: 102px;
+            left: 74px;
+        }
+
+        to {
+            top: 38px;
+            left: 144px;
+            width: 12px;
+            height: 148px;
+        }
+
+    }
+
+    @keyframes box2 {
+        from {
+            top: 38px;
+            left: 144px;
+            width: 12px;
+            height: 148px;
+        }
+
+        to {
+            top: 102px;
+            left: 74px;
+            width: 156px;
+            height: 11px;
+        }
+
+    }
+</style>
+
+<body>
+        <div id="box1">
+
+        </div>
+        <div id="box2">
+
+        </div>
+</body>
+
+</html>
