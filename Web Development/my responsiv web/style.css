@@ -1,0 +1,160 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 100%;
+    width:100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+/* Navigation Bar: Logo and Image */
+#logo{
+    margin: 10px 34px;
+}
+
+#logo img{
+    height: 56px;
+    margin: -8px -12px;
+}
+
+
+/* Navigation Bar: List Styling */
+
+#navbar ul{
+    display: flex;
+    font-family: 'Baloo Bhai', cursive;
+}
+
+#navbar ul li{ 
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navbar ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+#home::before{
+    content: "";
+    background: url('bg.jpg') no-repeat center center/cover;
+    position: absolute;
+    top:0px;
+    left:0px;
+    height: 570px;
+    width:100%;
+    z-index: -1;
+    opacity: 0.89;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    padding: 39px;
+    font-size: 4.7rem;
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 4px 4px black;
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.h-primary{
+    font-size: 3.8rem;
+    padding: 12px;
+}
+
+.h-secondary{
+    font-size: 2rem;
+    padding: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.btn{
+    padding: 6px 24px;
+    border: 2px solid white;
+    background-color: brown;
+    margin: 47px;
+    border-radius: 18px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+
+.btn:hover{
+    box-shadow: 3px 3px 28px red;
+}
+.center{
+    text-align: center;
+}
+p{
+    font-family: cursive;
+}
+h2{
+    text-shadow:1px 1px white;
+}
+#services-container h1{
+    text-shadow: 2px 2px #5e4e6a
+}
+
+/* services */
+
+#services{
+    display: flex;
+    margin: 17px;
+}
+#services .box{
+    border: 2px solid brown;
+    background-color: #efe6e6;
+    border-radius: 26px;
+    margin: 16px;
+    padding: 10px;
+}
+#services .box img{
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+
+
+
+
+
+
+
