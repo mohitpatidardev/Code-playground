@@ -156,5 +156,65 @@ h2{
 
 
 
+/* footer  */
+
+.mid{
+    display: block;
+width: 100%;
+margin: 15px auto;
+padding: 0px;
+/* border: 2px solid greenyellow; */
+position: relative;
+top: 27px;
+left: 0px;
+font-size: 31px;
+text-align: center;
+background-color: black;
+}
+
+
+.navbar{
+display: inline-block;
+padding: 24px 21px;
+
+}
+
+.navbar li{
+display: inline-block;
+font-size: 20px;
+}
+
+.navbar li a{
+color: white;
+text-decoration: none;
+padding: 4px 25px;
+}
+/* h1{
+color: rgb(25, 230, 28);
+
+} */
+.social{
+padding: 30px 30px;
+}
+.mid h1{
+    color: rgb(34, 211, 34);
+    padding: 20px 10px;
+    text-shadow: 2px 2px 10px rgb(241, 93, 30);
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 35px 14px;
+    font-size: 1.3rem;
+}
+hr{
+    width: 70%;
+    margin: auto;
+    opacity: 0.4;
+}
+
+
+
 
 
