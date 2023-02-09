@@ -1,0 +1,41 @@
+#services{
+    flex-direction: column;
+}
+#services .box{
+    
+}
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 400px;
+    padding: 12px 20px;
+}
+#home h1{
+    font-size: 3.2rem;
+}
+#home::before{
+    height: 500px;
+}
+#home p{
+    font-size: 17px;
+}
+.h-primary{
+    font-size: 2.5rem;
+}
+
+#navbar ul li a{
+    font-size: 1.1rem;
+    padding: 0px 8xp;
+}
+.btn{
+    font-size: 0.9rem;
+    padding: 5px 8px;
+}
+p{
+    font-family: none;
+}
+
+#services-container h1{
+    text-shadow:none;
+}

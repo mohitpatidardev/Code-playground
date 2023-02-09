@@ -151,6 +151,9 @@ h2{
     display: block;
     margin: auto;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 
 
@@ -170,6 +173,7 @@ left: 0px;
 font-size: 31px;
 text-align: center;
 background-color: black;
+background: url(footer2.jpg) no-repeat center center/cover;
 }
 
 
@@ -185,34 +189,28 @@ font-size: 20px;
 }
 
 .navbar li a{
-color: white;
+color: rgb(255, 255, 255);
 text-decoration: none;
 padding: 4px 25px;
+text-shadow: 2px 2px 6px black;
 }
-/* h1{
-color: rgb(25, 230, 28);
 
-} */
 .social{
 padding: 30px 30px;
 }
 .mid h1{
-    color: rgb(34, 211, 34);
+    color: rgb(0, 255, 0);
     padding: 20px 10px;
-    text-shadow: 2px 2px 10px rgb(241, 93, 30);
+    text-shadow: 2px 2px 7px rgb(0, 0, 0);
 }
 
 footer{
     background-color: black;
     color: white;
-    padding: 35px 14px;
+    padding: 20px 0px;
     font-size: 1.3rem;
 }
-hr{
-    width: 70%;
-    margin: auto;
-    opacity: 0.4;
-}
+
 
 
 
