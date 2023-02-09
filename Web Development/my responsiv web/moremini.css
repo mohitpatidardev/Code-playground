@@ -1,0 +1,54 @@
+
+#services{
+    flex-direction: column;
+}
+#services .box{
+    margin: 6px 3px;
+    padding: 3px 3px;
+}
+#navbar{
+    flex-direction: column;
+}
+#home{
+    height: 300px;
+    padding: 10px 5px;
+}
+#home::before{
+    height: 380px;
+}
+#home h1{
+    font-size: 2.5rem;
+}
+#home p{
+    font-size: 14px;
+}
+.h-primary{
+    font-size: 2rem;
+}
+p{
+    font-family: none;
+}
+
+#navbar ul li a{
+    font-size: 0.5rem;
+    padding: 4px;
+    margin: 4px;
+}
+
+.btn{
+    font-size: 0.6rem;
+    padding: 2px 5px;
+}
+
+#services-container h1{
+    text-shadow:none;
+}
+
+#services .box img {
+    height: 80px;
+    display: block;
+    margin: auto;
+}
+#logo img{
+    height: 40px;
+}
