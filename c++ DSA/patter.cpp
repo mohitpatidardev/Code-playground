@@ -101,12 +101,33 @@ void patt5()
         row = row + 1;
     }
 }
+void patt6(){
+
+    int n;
+    cin >> n;
+    int row =1;
+
+    while (row<=n)
+    {
+        int col = 1;
+        while (col <= row)
+        {
+            cout << col;
+            col = col +1;
+        }
+        cout << endl;
+        row = row +1;
+        
+    }
+    
+}
 int main()
 {
     // patter1();
     // pattern2();
     // patt3();
     // patt4();
-    patt5();
+    // patt5();
+    patt6();
     return 0;
 }
