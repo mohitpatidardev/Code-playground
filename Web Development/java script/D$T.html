@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>date and time</title>
+    <style>
+        .container{
+            background-color: rgb(210, 225, 182);
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid red;
+            text-align: center;
+        }
+        #time{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span id="time"></span>
+    </div>
+
+    <script>
+        let now = new Date();
+        console.log(now);
+
+        let dt = new Date(10000);
+        console.log(dt);
+
+        let newdate = new Date("2023-07-21");
+        console.log(newdate);
+
+        // let newdate = new Date(year , month , date , hours , minutes , seconds , miliseconds);
+        let newdate1 = new Date(3000 , 7 ,21 ,4 ,2,23 ,23);
+        console.log(newdate1);
+
+        let yr = newdate1.getFullYear();
+        console.log("this year is " + yr);
+
+        let month = newdate1.getMonth();
+        console.log("this month is " + month);
+
+        let date = newdate1.getDate();
+        console.log("this date is " + date);
+
+        newdate1.setMonth(11);
+        console.log(newdate1);
+
+        function updatetime(){
+            time.innerHTML = new Date();
+        }
+
+        setInterval(updatetime , 1000);
+        </script>
+</body>
+</html>
