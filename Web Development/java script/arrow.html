@@ -10,5 +10,47 @@
     <div class="container">
         this is arrow function
     </div>
+
+    <script>
+        // function greet(){
+        //     console.log("hey montea")
+        // }
+        // greet();
+
+        // let greet = ()=>{
+        //     console.log('hello montea')
+        // }
+        // greet();
+        
+        let greet = ()=> console.log('hello montea');
+        greet();
+    
+    
+
+        // setInterval(() => {
+        //     console.log("hey monty")
+        // }, 3000);
+
+
+            // sort more sort
+        // let sum = (a,b)=>{
+        //     return a+b;
+        // }
+
+        // let sum1 = (a,b)=> a+b;
+        // let half = a=> a/2;
+
+        let obj1={
+            greeting : "good morning",
+            names: ["monty" , "wewake" , "cvm" , "harry"],
+            speak(){
+                this.names.forEach((students) => {
+                    console.log(this.greeting + " hello " + students);
+                });
+            }
+        }
+        obj1.speak();
+
+    </script>
 </body>
 </html>
