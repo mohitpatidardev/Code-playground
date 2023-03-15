@@ -1,0 +1,11 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "npm is a pakage manager",
+  "main": "npm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "monty",
+  "license": "ISC"
+}
