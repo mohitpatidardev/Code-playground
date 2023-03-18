@@ -1,3 +1,25 @@
 *{
     font-family: 'Courier New', Courier, monospace;
 }
+
+.navbar a{
+    font-size: 1rem;
+    margin: 0 .5rem;
+    color: black;
+    text-decoration: none;
+}
+.navbar {
+    background-color: antiquewhite;
+    padding: .2rem;
+}
+
+.container{
+    background-color: rgb(164, 164, 101);
+    max-width: 70%;
+    margin: 12px auto;
+}
+
+h4{
+    text-align: center;
+    padding: 3px;
+}
