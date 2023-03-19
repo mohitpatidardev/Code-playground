@@ -11,13 +11,12 @@ app.use(express.urlencoded())
 app.set('view engine', 'pug') // Set the template engine as pug
 app.set('views', path.join(__dirname, 'views')) // Set the views directory
 
-ENDPOINTS
+// ENDPOINTS
 app.get('/', (req, res)=>{
     const con = "This is the best content on the internet so far so use it wisely"
     const params = {'title': 'PubG is the best game', "content": con}
     res.status(200).render('index.pug', params);
 })
-
 
 
 
