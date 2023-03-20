@@ -1,80 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Poppins:wght@300&display=swap');
+
+
 *{
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
-    padding: 0;
+    font-family: 'Poppins', sans-serif;
 }
+
+
 #navbar{
-    background-color: black;
-    padding: 13px 14px;
-    font-family: 'Sono', sans-serif;
+    background-color: rgb(0, 0, 0);
+    padding: .8rem;
+    font-size: 1rem;
 }
 #navbar ul{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-
-
+    text-align: center;
 }
-
-#navbar li{
+#navbar ul li{
     list-style: none;
-
 }
-#navbar li a{
-    color: white;
-    font-size: 20px;
-    
+#navbar ul li a{
+    padding: 1.5rem;
     text-decoration: none;
-    padding:13px 20px;
-
+    color: #fff;
 }
-#navbar li a:hover{
-    color: red;
-    
-    
-    text-decoration: none;
-    padding:13px 30px;
 
+#navbar ul li a:hover{
+    color: black;
+    background-color: #fff;
+    padding: 0 3px;
+    border-radius: 5px;
 }
 
 #introSection{
-    color: white;
+    height: 450px;
+    background-color: red;
+    background: url('/static/bg.jpg') center/cover no-repeat;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: aquamarine;
-    background: url('/static/bg.jpg') center/cover no-repeat;
-    height: 500px;
-    font-family: 'Edu NSW ACT Foundation', cursive;
-    font-size: 35px;
-    text-shadow: 3px 3px 3px green;
-
-
+    color: #fff;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 2px black;
 }
-#introSection div.small{
-    font-size: 27px;
-    padding: 5px;
+#introSection div.small
+{
+    font-size: 2rem;
 }
+
 #sponsorsSection{
     height: 300px;
-    background-color: #6d00ff;
-
-
-
-}
-#sponsorsSection h2{
+    background-color: rgb(179, 49, 205);
     text-align: center;
-    padding-top: 12px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-shadow: 1px 1px 1px white;
-
-
 }
+
+#sponsorsSection h3{
+    font-size: 1.7rem;
+    font-family: cursive;
+    font-weight: lighter;
+    padding: .3rem;
+}
+
 #footerSection{
-    height: 300px;
+    height: 100px;
     background-color: black;
+    color: #fff;
+}
 
-
+#introSection div span{
+    font-size: 3.6rem;
+    font-family: none;
 }
