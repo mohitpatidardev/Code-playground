@@ -1,0 +1,16 @@
+{
+  "name": "dancewp",
+  "version": "1.0.0",
+  "description": "this is  a webssite for dance academy",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "wewake",
+  "license": "ISC",
+  "dependencies": {
+    "expess": "^0.0.1-security",
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
