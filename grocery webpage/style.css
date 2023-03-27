@@ -45,6 +45,7 @@ body{
     border-radius: .5rem;
     color: var(--black);
     cursor: pointer;
+    background: none;
 }
 
 
@@ -229,4 +230,31 @@ body{
     display: block;
     text-align: center;
     margin: 1rem 0;
+}
+
+.login-form{
+    position: absolute;
+    top: 110%;
+    right: 2rem;
+    box-shadow: var(--box-shadow);
+    padding: 2rem;
+    border-radius: .5rem;
+    background: #fff;
+    text-align: center;
+
+}
+
+.login-form h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+.login-form .box{
+    border: 1px solid;
+    margin: .7rem 0;
+    background: #eee;
+    border-radius: .5rem;
+    padding: 1rem;
+    font-size:1rem;
 }

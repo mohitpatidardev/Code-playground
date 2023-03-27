@@ -1,24 +1,14 @@
-doctype html 
-html 
-    head 
-        style 
-            include ../static/style.css
-    body 
-        nav#navbar 
+extends base.pug
 
-            div#logo  
-                img(src="/static/img/logo.png", alt="")
-                | MDA
- 
-            ul 
-                li #[a(href='/') home]
-                li #[a(href='/') about]
-                li #[a(href='/') services]
-                li #[a(href='/') class info]
-                li #[a(href='/') contact us]
 
-            div#icon  
-                img(src="/static/img/user.png", alt="")
+block scripts 
+    script(scr='/static/index.js') 
+
+block style 
+    style 
+        include ../static/style.css
+
+block content
 
     section#introSection 
         div <span>W</span>elcome to Moon Dance Academy 
@@ -59,11 +49,5 @@ html
                 img(src= "/static/img/s5.png", alt= "Sponsor Image", class= "spImage")
                 img(src= "/static/img/s1.png", alt= "Sponsor Image", class= "spImage")
 
-
-
     footer#footer
-        | Copyright © 2023 MoonDanceAcademy.com | All Rights Reserved      
-
-
-        script 
-            include ../static/index.js    
+        | Copyright © 2023 MoonDanceAcademy.com | All Rights Reserved
