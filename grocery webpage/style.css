@@ -244,17 +244,21 @@ body{
 
 }
 
-.login-form h3{
+.header .login-form h3{
     font-size: 2.5rem;
     text-transform: uppercase;
     color: var(--black);
 }
 
-.login-form .box{
+.header .login-form .box{
     border: 1px solid;
     margin: .7rem 0;
     background: #eee;
     border-radius: .5rem;
     padding: 1rem;
-    font-size:1rem;
+    font-size:1.6rem;
+    color: var(--black);
+    text-transform: none;
+    border: 1px solid black;
+    width: 100%;
 }
