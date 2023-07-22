@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        "use strict";
+
+        // d = 9;
+
+        //  in js has 3 types variables var , let , const 
+        let a = 40;
+        console.log(a);
+
+        //  this all is data type in js 
+        // numbers 
+        // objects
+        // Booleans
+        // string 
+        // undefined
+        // null
+
+        function hello(){
+            console.log("hey montea");
+        }
+
+        let obj1 = {
+            m: 80,
+            s: 70, 
+            w: 85,
+            func: function myfunc(number) {
+                console.log("the number is " +  number);
+            }
+        }
+
+        document.addEventListener("click" , function click(){
+            console.log("clicked");
+            // alert("hey hello ");
+            let conf = confirm("are you sure ?");
+            console.log(conf);
+        })
+
+
+        let arr = [23,45,57,34];
+        console.log(this);
+        //  function myfunc(number) {
+        //         console.log("the number is " +  this);
+        //     }
+        //     myfunc();
+
+
+        let myfunc = (number)=>{
+            console.log("the number is " +  this);
+        }
+        myfunc();
+
+        
+    </script>
+</head>
+<body>
+    <h1>
+        hey montea
+    </h1>
+</body>
+</html>
